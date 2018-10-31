@@ -1,0 +1,710 @@
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+width: device-width;
+}
+
+div {
+	display: block;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+	color: #4d4d4d;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+a {
+	text-decoration: none;
+	color: #444444;;
+}
+.container {
+	background: #fff;
+}
+.GlobalHeader {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    color: #444444;
+    width: 100%;
+    max-width: 1764px;
+    text-align: left;
+    position: relative;
+    color: #444444;
+    width: 100%;
+    height:100px;
+}
+.header-top{
+	height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    color: #444444;
+    font-family:sans-serif;
+}
+.header-top .sites-section {
+	width:122px;
+	max-height: 29px;
+	margin:auto;
+	color: #444444;
+	border-right: 1px solid #e7e7e7;
+} 
+.header-top .sites-section .sites1{
+    max-height: 29px;
+    text-align: center;
+    position:absolute; 
+    left:22px; 
+    top:0px;
+    border-right: 1px solid #e7e7e7;
+    padding-right:27px; 
+}
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid gray;
+  	border-width: 0 1px 1px 0;
+  	display: inline-block;
+  	padding: 2px;
+  	position:relative;
+  	bottom:2px;
+  	opacity: 0.3px;
+ }
+
+.header-top .employee {
+  max-height: 29px;
+  border-right:1px solid #e7e7e7;
+  border-left:1px solid #e7e7e7;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.store1{
+	max-height: 29px;
+	border-right:1px solid #e7e7e7;
+	padding-right: 25px;
+    padding-left: 30px;
+}
+.add {
+	max-height: 29px;
+  	border-left:1px solid #e7e7e7;
+  	padding-right: 36px;
+  	padding-left: 24px;
+}
+.header-mid{
+	height:56px;
+	position:relative;
+}
+ .staple-img{
+	width:182px;
+	float:left;
+	margin-left:10px;
+}
+.selection1 {
+	position:relative;
+	max-width: 903px;
+	margin:10px auto;
+	padding:0 20px;
+	width:100%;
+}
+.search {
+	padding-top: 10px;
+	margin-left:10px;
+}
+#input1 {
+	height:37px;
+	font-size: 14px;
+	width:640px;
+}
+.button {
+	width:40px;
+	height:37px;
+	background-color: #444444;
+	border:none;
+	color:white;
+}
+.menu{
+	text-align: center;
+	width:347px;
+	height:59px;
+	float:right;
+	position:relative;
+	z-index: 61;
+	bottom:57px;
+}
+.menu-list li a{
+	display:inline-block;
+	height:69px;
+	list-style-type: none;
+	padding:20px;
+	border-left:1px solid #e7e7e7;
+	font-size: 13px;
+
+}
+.menu-list li {
+	float: left;
+	list-style-type: none;
+	position:relative;
+	bottom:10px;
+}
+ #cart a{
+	position: relative;
+	height: 76px;
+	background-color: #cc0000;
+	width:80px;
+	border:none;
+	color:white;
+}
+.menu-list #cart a:active {
+	background-color: #cc0000;
+}
+.menu-list li a:hover{
+	background-color: #444444;
+	color:white;
+}
+
+.header-bottom {
+	border-bottom: 1px solid #e7e7e7;
+	border-top:1px solid #e7e7e7;
+	height:46px;
+}
+.navigation1{
+	position:relative;
+	left:410px;
+	top:-6px;
+}
+.navigation1 li a{
+	display:inline-block;
+	height:59px;
+	list-style-type: none;
+	padding:20px;
+	font-size: 13px;
+	font-family: sans-serif;
+ 
+}
+.navigation1 li {
+	float: left; 
+	list-style-type: none;
+}
+.navigation1 li a:hover{
+	color:#c00;
+	text-decoration: underline;
+}
+.big-image{
+	min-height:264px;
+	width:100%;
+	background-size: 1420px 263px;
+	background-repeat: no-repeat;
+	background-image: url(https://assets.staples-static.com/sbd/cre/products/home-banners/20181021/images/dg17690_c1_hp_toners_1764x262.jpg);
+	background-position-x:center; 
+	padding:0px; 
+}	
+.spacing {
+	height:13px;
+	border:none;
+}
+.second-header {
+	height:54px;
+}
+.div-container{
+	width:1420px;
+	margin:auto;
+	height:53px;
+	background-color: #444444;
+}
+ .welcome{
+	float: left;
+    width: 250px;
+    height: 36px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.center-div {
+	width: 400px;
+    margin: auto;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    top: 7px;
+}
+.sign-button {
+	float: right;
+    width: 290px;
+    height: 40px;
+    position: relative;
+    left: -51px;
+    top: -33px;
+}
+.text a{
+	line-height: 18px;
+	font-family: bold;
+	color:#fff;
+	font-size:13px;
+}
+.text a:hover{
+	text-decoration: underline;
+}
+.sign1{
+	width:115px;
+	background-color:#fff;
+	color:#cc0000; 
+	height: 36px;
+	border:1px solid #ffffff;
+	border-radius: 7px;
+}
+.create {
+	width:115px;
+	background-color:#444444;
+	color:#fff; 
+	height: 36px;
+	border:1px solid #ffffff;
+}
+.sign1:hover {
+	background-color:#cc0000;
+	color:#fff;
+}
+.create:hover {
+	background-color:#cc0000;
+}
+.mid {
+	height:252px ;
+	width:1400px;
+	margin:auto;
+	background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+}
+.left-mid {
+	float: left;
+    width: 900px;
+    height: 240px;
+    background-image: url(https://assets.staples-static.com/sbd/cre/products/home-banners/20181021/images/dg17690_c2_hammermill_924x252.jpg);
+    margin-left:10px;
+}
+.text1 a{
+	font-family: HelveticaNeueCondensed-Bold;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 9px;
+    letter-spacing: .1px;
+    padding-left: 10px;
+}
+.text2 a{
+	color: #fff;
+    font-size: 13px;
+    padding-top: 10px;
+    text-decoration: none;
+    padding-left:10px;
+}
+.shop-now {
+	position: relative;
+	top:75px;
+	left:44px;
+	width:146px;
+	height:36px;
+	border:1px solid gray;
+	border-radius:3px;
+	background-color:#cc0000;
+	color:#fff;
+}
+.shop-now:hover{
+	background-color:#ffffff;
+	color:#cc0000;
+}
+.right-mid{
+	height: 240px;
+    width: 470px;
+    float: right;
+    position: relative;
+    top: -12px;
+    background-color: red;
+ 	margin-right: 10px;
+    background-image: url(https://assets.staples-static.com/sbd/cre/products/home-banners/20181021/images/dg17690_c3_weekly_ad_552x252.jpg);
+}	
+.text3 {
+	font-family: HelveticaNeueCondensed-Bold;
+    font-size: 22px;
+    color: #444;
+    padding-top: 9px;
+    padding-left: 12px;
+}
+.text4 {
+	color: #444;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 12px;
+    font-size:11px;
+}
+.view-weekly{
+	position: relative;
+    top: 90px;
+    left: 32px;
+    width: 146px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #cc0000;
+    color: #fff;
+}
+.view-weekly:hover{
+	background-color: #ffffff;
+	color:#cc0000;
+}
+.right-mid:hover{
+	border:1px solid #e7e7e7;
+}
+.categories {
+	height:81px;
+	margin:auto;
+	width:1400px;
+}
+.Popular{
+	height:80px;
+	float:left;
+	width:700px;
+}
+.text5{
+	font-size: 1.85em;
+    max-height: 24px;
+    font-family: sans-serif;
+    line-height: 1em;
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 20px
+}
+.dot{
+	float: right;
+    height: 50px;
+    width: 40px;
+    position: relative;
+    right: -475px;
+}
+.radio{
+	margin-top: 30px;
+	background-color: #c00;
+}
+.category1{
+	height: 370px;
+    margin: auto;
+    width: 1400px;
+    background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+}
+.category-img1{
+	height: 360px;
+    float:left;
+    width: 25%;
+}
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 337px;
+    height: 354px;
+    background-color: #ffffff;
+}
+.gallery:hover{
+	border:2px solid #e7e7e7;i
+	
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    text-align: left;
+    padding-left: 10px;
+}
+.category-img2{
+	height: 360px;
+    float:left;
+    width: 25%;
+}
+.category-img3{
+	height: 360px;
+    float:left;
+    width: 25%;
+}
+.category-img4{
+	height: 360px;
+    float:left;
+    width: 25%;
+}
+.text6 {
+	display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+}
+.text6:hover{
+	text-decoration: underline;
+}
+.view-all{
+	text-decoration: underline;
+    color: #444;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 12px;
+    display: inline-block;
+}
+.dot1{
+	float: right;
+    height: 50px;
+    width: 40px;
+    position: relative;
+    right: 20px;
+}
+.list-category-1{
+	height: 360px;
+    float:left;
+    width: 16.6%;
+}
+
+.gallery1 {
+    margin: 5px;
+    float: left;
+    width: 225px;
+    height: 354px;
+    background-color: #ffffff;
+}
+.gallery1:hover{
+	border:2px solid #e7e7e7;
+}
+
+.gallery1 img {
+   width: 75%;
+    height: auto;
+    padding: 14px 16px;
+    margin-left: 30px;
+}
+
+.desc1 {
+    text-align: left;
+    padding-left: 15px;
+}
+.text7 {
+	display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+}
+.dot2{
+	float: right;
+    height: 50px;
+    width: 70px;
+    position: relative;
+    right: 20px;
+}
+.big-image1{
+	min-height:264px;
+	width:100%;
+	background-size: 1405px 263px;
+	background-repeat: no-repeat;
+	background-image: url(https://assets.staples-static.com/sbd/cre/products/home-banners/20181028/images/dg17768_c4_pcs_1764x300.png);
+	background-position-x:center; 
+	padding:0px; 
+}
+.fa {
+    font-size: 12px;
+}
+.transition{
+    text-align: left;
+    height: 50px;
+    margin-top: 45px;
+}
+.text-transition{
+	height: 44px;
+}
+.text10{
+	color: #444;
+    font-size: .85em;
+    padding-left: 12px;
+    font-family: HelveticaNeueCondensed-Black;
+    height: 12px;
+}
+.text11{
+	color: #444;
+    font-size: 1.70em;
+    padding-left: 12px;
+    font-family: HelveticaNeueCondensed-Black;
+    height: 12px;
+}
+.main-footer{
+	background-color: #444444;
+	width:100%;
+	height:374px;
+}
+.main-coloum-1{
+	height:373px;
+	width:24%;
+	float:left;
+	margin-left:7px;
+	margin-right:7px;
+}
+.services{
+	height:373px;
+	margin:20px;
+	color:white;
+}
+.text13{
+	color:white;
+	font-size: 13px;
+}
+.text13:hover{
+	text-decoration: underline;
+}
+.footer-mid{
+    height: 110px;
+    width: 100%;
+    background: #666;
+}
+.social-media{
+	height: 110px;
+	width:300px;
+	float: left;
+	margin:10px;
+}
+.download{
+	height: 110px;
+	width:300px;
+	float: left;
+	margin:40px;
+	margin-top: 10px;
+}
+.subscribe {
+    height: 95px;
+    width: 580px;
+    float: right;
+    margin: 10px;
+    margin-right: 160px;
+}
+.text-align{
+	height:20px;
+	width:300px;
+	margin-left: 20px;
+}
+.input-text{
+	padding-top:10px;
+	height:30px;
+	width:300px;
+}
+.subscribe1 {
+    height: 50px;
+    width: 530px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+#input2 {
+    height: 36px;
+    font-size: 14px;
+    width: 375px;
+    margin-left: 2px;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.button1 {
+    position: relative;
+    width: 130px;
+    height: 36px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #cc0000;
+    left:10px;
+}
+.button1:hover {
+	background-color:#cc0000;
+	color:#ffffff;
+}
+.icon {
+    height: 50px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+.fa.fa-facebook {
+  background: #ffffff;
+  color: #666;
+  font-size: 30px;
+  padding:6px;
+  padding-bottom: 0px;
+}
+.fa.fa-twitter {
+ background: #ffffff;
+  color: #666;
+  font-size: 30px;
+  padding:6px;
+  padding-bottom: 0px;
+}
+.fa.fa-pinterest {
+  background: #ffffff;
+  color: #666;
+  font-size: 28px;
+  padding:6px;
+  padding-bottom: 0px;
+  border-radius: 50px;
+}
+.fa.fa-linkedin {
+  background: #ffffff;
+  color: #666;
+  font-size: 30px;
+  padding:6px;
+  padding-bottom: 0px;
+}
+.fa.fa-apple {
+  background: #ffffff;
+  color: #666;
+  font-size: 28px;
+  padding:6px;
+  padding-bottom: 0px;
+  border-radius: 50px;
+}
+.fa.fa-android {
+  background: #ffffff;
+  color: #666;
+  font-size: 28px;
+  padding:6px;
+  padding-bottom: 0px;
+  border-radius: 50px;
+}
+.footer-lower{
+    height: 100px;
+    width: 100%;
+    background-color: #444444;
+}
+.text15{
+	color: #fff;
+    font-size: 13px;
+}
+.content-class {
+    margin: auto;
+    width: 999px;
+    height: 60px;
+    position: relative;
+    top: -20px;
+    display: inline-block;
+    left: 260px;
+}
+.footer-link{
+	color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+.footer-link:hover{
+	 text-decoration: underline;
+}
+.fa.fa-star {
+  font-size: 10px;
+}
+.fa.fa-star-half{
+	font-size: 10px;
+}
